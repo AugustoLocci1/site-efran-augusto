@@ -7,7 +7,7 @@ export const Logo: React.FC<{ className?: string }> = ({ className }) => (
         <img
             src={IMAGES.LOGO_BRAND}
             alt="Efran Engenharia"
-            className="h-14 md:h-16 w-auto object-contain hover:scale-105 transition-transform duration-300"
+            className="h-10 md:h-16 w-auto object-contain hover:scale-105 transition-transform duration-300"
         />
     </div>
 );
