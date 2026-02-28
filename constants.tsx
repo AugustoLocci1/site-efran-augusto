@@ -15,7 +15,7 @@ export const IMAGES = {
 
 export const CONTACT_INFO = {
   PHONE: "(12) 99637-2990",
-  EMAIL: "contato@efranengenharia.com.br",
+  EMAIL: "compras@efranengenharia.com.br",
   ADDRESS: "Est. Municipal Nossa Senhora Aparecida, 1991, Bairro: Paiol – Caçapava / SP",
   CEP: "12295-429",
   WHATSAPP_LINK: "https://wa.me/5512996372990"
