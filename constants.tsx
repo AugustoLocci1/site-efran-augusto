@@ -1,5 +1,6 @@
 
 import React from 'react';
+import logoBrand from './logo_efran_larger.png';
 
 // Image assets used across the application
 export const IMAGES = {
@@ -9,7 +10,7 @@ export const IMAGES = {
   SERVICE_ESTUDOS: "https://lh3.googleusercontent.com/aida-public/AB6AXuC2gSfPsbUCZssJxF0SOfJeZoln5g3Uyf5mGzIFC_4_Xr0fClsGmCRjCu9VniziAV1zuvOVh1piiIiN4kV93QWJAudjw6xXunFAByufncGkKZ6V7PUSlnkmL8sPDiyXqa7C3zh5HRzrUN785Jf-uqdqCFmO9wpqryzmwVNhLPKBBnm-nX_lZtOMNpBeZ3hhkmcxSICFCHKLLLndTUnAr57vr-peRMRK7ezT8Z0INAWjyv1vJSRVQSYsfPKwwonA1YWoUen2GPcTwg",
   BENEFITS_DRILL: "https://lh3.googleusercontent.com/aida-public/AB6AXuBYX_QtGJEKT8zCYU0xVikVukAjoTJsaLOs6eydRC0CwsuVxdLMaAYMKoRdX9imWVETQoCwIL6E2aI-e02c-axYQKqzakDthE0YTubmPKcSf_YCinXyVYvhmUb0l5pxY7GBYSW2eyAgQY7lNZRMcwj752Qntj82cbCX701rqEW6DN-_YY_xLolB__Dl2YPJkSE7VPX3JwZbWUta9dYR6pIEw7snfQbLRmnvGiGX8rlhLjSpN24IWPb9D896IaTqE2lnJydK5Unorw",
   // Logo image updated to larger version
-  LOGO_BRAND: "/logo_efran_larger.png",
+  LOGO_BRAND: logoBrand,
 };
 
 export const CONTACT_INFO = {
