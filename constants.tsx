@@ -1,6 +1,6 @@
 
 import React from 'react';
-import logoBrand from './logo_efran_larger.png';
+import logoBrand from './components/logo_efran_dark.png';
 
 // Image assets used across the application
 export const IMAGES = {

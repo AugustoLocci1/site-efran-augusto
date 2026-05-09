@@ -4,7 +4,7 @@ import { IMAGES, CONTACT_INFO } from '../constants';
 
 const Hero: React.FC = () => {
   return (
-    <section 
+    <section
       className="relative pt-32 pb-20 md:pt-48 md:pb-32 flex min-h-[700px] flex-col justify-center items-center bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{ backgroundImage: `linear-gradient(rgba(15, 26, 35, 0.75), rgba(15, 26, 35, 0.85)), url("${IMAGES.HERO_BG}")` }}
     >
@@ -13,18 +13,18 @@ const Hero: React.FC = () => {
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
           <span className="text-white text-xs font-bold uppercase tracking-widest">Especialistas em Fundações</span>
         </div>
-        
+
         <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight">
           Soluções em Fundações com <br />
-          <span className="text-primary italic">Hélice Contínua</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 italic pr-2">Hélice Contínua</span>
         </h1>
-        
+
         <p className="text-slate-200 text-lg md:text-xl font-normal max-w-2xl leading-relaxed">
           Tecnologia, segurança e precisão para sua obra. Executamos fundações profundas monitoradas com agilidade e qualidade técnica superior.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto mt-4">
-          <a 
+          <a
             href={CONTACT_INFO.WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             <span className="material-symbols-outlined">chat</span>
             Falar com Engenheiro
           </a>
-          <a 
+          <a
             href="#servicos"
             className="h-14 px-10 bg-white/10 hover:bg-white/20 border border-white/30 backdrop-blur-sm rounded-lg text-white text-lg font-medium flex items-center justify-center transition-all hover:border-white/50"
           >
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
           </a>
         </div>
       </div>
-      
+
       {/* Scroll Down Hint */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
         <span className="material-symbols-outlined text-white/50 text-4xl">keyboard_arrow_down</span>
